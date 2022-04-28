@@ -726,13 +726,14 @@
 		}
 
 		&.avatar {
-			border-radius: 100%;
+			border-radius: 50%;
 			overflow: hidden;
 
 			img {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+                object-fit: cover;
 			}
 		}
 
